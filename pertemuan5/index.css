@@ -1,0 +1,80 @@
+/* ini untuk tag h1 */
+*{
+    background-color: aqua;
+
+}
+
+
+
+h1{
+    color: darkblue;
+    background-color: blue;
+
+}
+.segar{
+    background-color: red;
+    padding: 40px;
+    text-align: center;
+}
+.eses{
+    background-color: green;
+    text-align: center;
+    padding: 40px;
+}
+
+.text-white{
+    color: white;
+    text-align: center;
+}
+
+.bg-teal{
+    background-color: teal;
+    text-align: center;
+}
+
+#header h1{
+    color: burlywood;
+    text-align: center;
+}
+
+input[type=text]{
+    background: none;
+    color: blue;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+input[type=email]{
+    background: none;
+    color: cyan;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.btn:hover{
+    background-color: black;
+    color: cornflowerblue;
+    padding: 4px;
+}
+
+.btn:active{
+    background-color: blue;
+    color: cornflowerblue;
+    padding: 4px;
+}
+
+p::first-line{
+    color: magenta;
+}
+
+p::before{
+    content: "akuu";
+}
+
+p::after{
+
+    content: "gw pnya";
+}
+.nama::placeholder{
+    color: blue;
+}
